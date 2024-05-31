@@ -1,0 +1,29 @@
+{
+    "name": "@optocycle/keycloak-admin-client-cjs",
+    "version": "24.0.4",
+    "description": "Migration from Modules to CJS of Keycloak Admin Client",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "esbuild index.ts --platform=node --bundle --format=cjs --outfile=dist/index.js && tsc",
+        "prepublish": "npm run build",
+        "publish": "npm publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/optocycle/keycloak-admin-client-cjs.git"
+    },
+    "author": "Pherkel",
+    "dependencies": {
+        "@keycloak/keycloak-admin-client": "24.0.4"
+    },
+    "devDependencies": {
+        "esbuild": "0.20.2"
+    },
+    "files": [
+        "dist"
+    ],
+    "publishConfig": {
+        "@optocycle:registry": "https://npm.pkg.github.com"
+    }
+}
