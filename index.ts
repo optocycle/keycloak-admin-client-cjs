@@ -66,9 +66,7 @@ import UserConsentRepresentation from "@keycloak/keycloak-admin-client/lib/defs/
 import UserSessionRepresentation from "@keycloak/keycloak-admin-client/lib/defs/userSessionRepresentation";
 import WhoAmIRepresentation from "@keycloak/keycloak-admin-client/lib/defs/whoAmIRepresentation";
 import { Credentials, Settings, TokenResponse, TokenResponseRaw } from "@keycloak/keycloak-admin-client/lib/utils/auth";
-import * as all from "@keycloak/keycloak-admin-client";
 
-export { all };
 export { KeycloakAdminClient };
 export type {
   UserRepresentation,

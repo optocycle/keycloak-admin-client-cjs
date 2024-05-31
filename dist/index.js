@@ -20,19 +20,9 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // index.ts
 var keycloak_admin_client_cjs_exports = {};
 __export(keycloak_admin_client_cjs_exports, {
-  KeycloakAdminClient: () => lib_default,
-  all: () => lib_exports
+  KeycloakAdminClient: () => lib_default
 });
 module.exports = __toCommonJS(keycloak_admin_client_cjs_exports);
-
-// node_modules/@keycloak/keycloak-admin-client/lib/index.js
-var lib_exports = {};
-__export(lib_exports, {
-  NetworkError: () => NetworkError,
-  default: () => lib_default,
-  fetchWithError: () => fetchWithError,
-  requiredAction: () => requiredAction
-});
 
 // node_modules/url-join/lib/url-join.js
 function normalize(strArray) {
@@ -2680,10 +2670,8 @@ var RequiredActionAlias;
 })(RequiredActionAlias || (RequiredActionAlias = {}));
 
 // node_modules/@keycloak/keycloak-admin-client/lib/index.js
-var requiredAction = RequiredActionAlias;
 var lib_default = KeycloakAdminClient;
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  KeycloakAdminClient,
-  all
+  KeycloakAdminClient
 });
