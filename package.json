@@ -1,5 +1,5 @@
 {
-    "name": "@optocycle/keycloak-admin-client-cjs",
+    "name": "@pherkel/keycloak-admin-client-cjs",
     "version": "24.0.4",
     "description": "Migration from Modules to CJS of Keycloak Admin Client",
     "main": "dist/index.js",
@@ -22,8 +22,5 @@
     },
     "files": [
         "dist"
-    ],
-    "publishConfig": {
-        "@optocycle:registry": "https://npm.pkg.github.com"
-    }
+    ]
 }
